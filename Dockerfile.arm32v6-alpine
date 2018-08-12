@@ -1,0 +1,7 @@
+FROM arm32v6/alpine
+LABEL maintainer "j"
+
+RUN apk add --no-cache mpv=0.27.2-r1
+
+CMD [ "mpv" ]
+
